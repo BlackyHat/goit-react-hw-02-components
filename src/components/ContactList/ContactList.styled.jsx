@@ -25,9 +25,10 @@ export const DeleteBtn = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 4px;
   font-family: 'Roboto', monospace;
-  width: 64px;
-  height: 20px;
+  width: 80px;
+  height: 24px;
   background-color: #d6eaed;
   border: 1px solid #efefef;
   border-radius: 6px;

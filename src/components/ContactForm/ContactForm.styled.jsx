@@ -24,7 +24,8 @@ export const FormPhonebook = styled.form`
     justify-content: center;
     align-items: center;
     width: 120px;
-    height: 26px;
+    height: 28px;
+    gap: 8px;
     background-color: #d6eaed;
     border: 1px solid #efefef;
     border-radius: 6px;

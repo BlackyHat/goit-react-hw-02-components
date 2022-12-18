@@ -4,6 +4,7 @@ export const OptionsBtn = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 8px;
   width: 88px;
   height: 32px;
   background-color: #d6eaed;

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import { FormPhonebook } from './ContactForm.styled';
+import { BsPersonPlus } from 'react-icons/bs';
+
 import { nanoid } from 'nanoid';
 
 class ContactForm extends Component {
@@ -52,10 +54,8 @@ class ContactForm extends Component {
             onChange={this.handleChange}
           />
         </label>
-        <button
-          type="submit"
-          // onSubmit={onSubmit}
-        >
+        <button type="submit">
+          <BsPersonPlus size={16} />
           Add contact
         </button>
       </FormPhonebook>

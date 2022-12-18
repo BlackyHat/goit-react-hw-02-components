@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { BsTelephoneForward } from 'react-icons/bs';
+import { BsTelephoneForward, BsPersonX } from 'react-icons/bs';
 import {
   FilteredList,
   FilteredListItem,
@@ -18,7 +18,7 @@ const ContactList = ({ contacts, onDeleteContact }) => {
               {name + ': ' + number}{' '}
             </p>
             <DeleteBtn type="button" onClick={() => onDeleteContact(id)}>
-              delete
+              delete <BsPersonX size={14} />
             </DeleteBtn>
           </FilteredListItem>
         );
